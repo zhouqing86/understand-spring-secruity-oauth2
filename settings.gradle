@@ -1,0 +1,3 @@
+rootProject.name = 'understand-spring-secruity-oauth2'
+include 'auth-with-jwt:oauth2-jwt-auth-server'
+include 'auth-with-jwt:oauth2-jwt-resource-server'
