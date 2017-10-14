@@ -48,6 +48,7 @@ public class JwtAuthServerApplication {
             clients.inMemory()
                     .withClient("web_app")
                     .scopes("FOO")
+                    .autoApprove(true)
                     .authorities("FOO_READ")
                     .authorizedGrantTypes("implicit", "refresh_token", "password");
         }
